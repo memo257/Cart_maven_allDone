@@ -9,6 +9,7 @@
     
 <h1>CD list</h1>
 <table>
+    
     <form action="loadProducts">
         <button> Click here to load data </button>
     </form>
