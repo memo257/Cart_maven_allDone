@@ -34,7 +34,7 @@
     <td>${item.product.priceCurrencyFormat}</td>
     <td>${item.totalCurrencyFormat}</td>
     <td>
-      <form action="" method="post">
+      <form action="cart" method="post">
         <input type="hidden" name="productCode" 
                value="<c:out value='${item.product.code}'/>">
         <input type="hidden" name="quantity" 
