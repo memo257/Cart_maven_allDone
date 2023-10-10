@@ -32,3 +32,8 @@ th, td {
 .right {
     text-align: right;
 }
+
+.returnHome{
+    font-size: 20px;
+    text-align: center;
+}

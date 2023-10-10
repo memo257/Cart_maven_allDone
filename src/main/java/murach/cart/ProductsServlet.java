@@ -18,7 +18,17 @@ public class ProductsServlet extends HttpServlet {
         String path = getServletContext().getRealPath("/WEB-INF/products.txt");
         ArrayList<Product> products = ProductIO.getProducts(path);
         session.setAttribute("products", products);
+        
+        request.setAttribute("result", "This is the result of the servlet call");
 
+
+        
+//        String pathindex = this.getServletContext().getRealPath("/index.jsp");
+//        
+//        System.out.println("path index.jsp: " + pathindex);
+
+                
+                
         String url = "/index.jsp";
         getServletContext()
                 .getRequestDispatcher(url)
