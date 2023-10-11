@@ -37,3 +37,7 @@ th, td {
     font-size: 20px;
     text-align: center;
 }
+
+.devnote p{
+    max-width: 51em;
+}
