@@ -32,3 +32,27 @@ th, td {
 .right {
     text-align: right;
 }
+<<<<<<< HEAD
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Set your desired background color */
+    color: #fff; /* Set the text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.my-button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+=======
+
+.returnHome{
+    font-size: 20px;
+    text-align: center;
+}
+
+.devnote p{
+    max-width: 49%;
+>>>>>>> 6a0197c7bde515b02445776a8c3d5b82efe8c35c
+}

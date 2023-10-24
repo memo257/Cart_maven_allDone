@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
-
+<a href="https://memo2572003-cdd24867e0ef.herokuapp.com" class="my-button">My home page</a>
 <h1>Your cart</h1>
 
 <table>
@@ -34,7 +34,7 @@
     <td>${item.product.priceCurrencyFormat}</td>
     <td>${item.totalCurrencyFormat}</td>
     <td>
-      <form action="" method="post">
+      <form action="cart" method="post">
         <input type="hidden" name="productCode" 
                value="<c:out value='${item.product.code}'/>">
         <input type="hidden" name="quantity" 
@@ -66,6 +66,10 @@
   <input type="hidden" name="action" value="checkout">
   <input type="submit" value="Checkout">
 </form>
+
+<br> 
+ 
+<a class = "returnHome" href="https://thangmainpage-f659678d7b24.herokuapp.com/#listEx"><i class="fa-solid fa-house"></i> &#127968 Back To Main Page</a>
 
 </body>
 </html>
